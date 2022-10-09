@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Baloo+Bhaijaan+2:wght@400;700&display=swap');
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    
+}
+html {
+    font-size: 13px;
+    /*background: url('sebastian-svenson-d2w-_1LJioQ-unsplash.jpg') no-repeat center center fixed; */
+    /*background-color: #2a2734;*/
+    background-color: #111;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 1rem 2rem;
+    margin: 0 .5px;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Alkalami', serif;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    line-height: 1.6;
+    
+}
+p {
+    font-family: 'Alkalami', serif;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 21px;
+    color: #fff;
+    margin-left: 0px;
+
+}
+
+h1 {    
+    color: #fff;
+    background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+h2{
+    font-size: 22px;
+}
+#logo{
+    font-size: 30px;
+}
+
+
+
+                        
+
+/*NAVBAR*/
+
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0rem 3rem;
+    border-bottom: 1.5px solid rgb(56, 54, 54, 0.6);
+    
+}
+#navbar a{
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    margin: 0 .5px;
+    font-size: larger;
+
+}
+
+#navbar ul{
+    display: flex;
+    
+}
+#navbar span{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 40px;
+}
+/*CUBE*/
+.cube{
+    top : 50% ;
+    left : 50% ;
+    transform : translate( -50% , -50% ) rotate(0deg) ;
+    animation: 6s infinite ease-out;
+    animation-name: anim;
+   }
+.top{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.outercube {
+    z-index: 2;
+    width : 50px ;
+    height : 50px ;
+    background-color : #9B87FE ;
+}
+.innercube {
+    position:absolute ;
+    z-index: 3;
+    width : 25px ;
+    height : 25px ;
+    background-color : #C2BEDB ;
+}
+.innercube2 {
+    position:absolute ;
+    z-index: 4;
+     width : 13px ;
+     height : 13px ;
+     background-color : #FFB870 ;
+}
+@keyframes anim {
+      0% {
+         transform : translate( -50% , -50% ) rotate(0deg) ;
+     }
+     100% {
+         transform: translate(-50%, -50% ) rotate(360deg) ;
+     }
+}
+.bottom1{
+    position: fixed;
+    bottom: 3%;
+    left: 4%;
+}
+.bottom2{
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+}
+
+/* HOVER*/
+
+#navbar a {
+    line-height: 1;
+    display: inline-block;
+}
+
+#navbar a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #9c76c0;
+    transition: width .3s ease-in-out;
+}
+
+#navbar a:hover:after,
+#navbar a:focus:after {
+    width: 100%;
+}
+
+/*SELECTİON*/
+h1::selection {
+    background: #69618d;
+
+}
+p::selection {
+    background: #c1aac6;
+}

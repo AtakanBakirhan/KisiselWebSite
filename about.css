@@ -1,0 +1,22 @@
+object {
+    width: 66%;
+    height: 850px;
+    text-align: center;
+    align-items: center;
+
+    margin: 90px 0 0 17%;
+}
+
+
+
+.about-header::before {
+    content : '' ;
+   position : absolute ;
+   top:0 ;
+    left: 0 ;
+   width : 100%;
+   height : 100% ;
+   background: linear-gradient(rgba(0, 0, 0, 0.5), 
+   rgba(0, 0, 0, 0.5));
+   z-index: -1;
+}
