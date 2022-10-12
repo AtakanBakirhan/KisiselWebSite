@@ -1,4 +1,3 @@
-
 @media (min-width: 1500px) and (max-width: 3200px){
     /* SECTİON*/
     .mains{
@@ -6,7 +5,13 @@
         display: flex;
         justify-content: space-between;
         margin-top: 5%;
-        width: 100%;    
+        width: 100%;
+        height: 100%;    
+        vertical-align: middle;
+
+    }
+    #h{
+        font-weight: bolder;
 
     }
     #navbar a{
@@ -16,7 +21,7 @@
         font-size: 24px;
     }
     .colon-1 {
-        margin-top: 15%;
+        margin-top: 13%;
         margin-left: 8%;
         text-align: left;
         width: 43%;
@@ -28,22 +33,6 @@
     }
 
 
-    .colon-2 {
-        text-align: center;
-        display: inline-block;
-        justify-content: center;
-        margin-right: 10%;
-        margin-top: 5%;
-        
-    }
-    .colon-2 img{
-        height: 490px;
-        width: 100%;
-        
-        padding-bottom: 0px;
-        right: 150px;
-        border-radius: 50px;
-    }
 
     /*gölge*/
     .mains::before {
@@ -60,45 +49,6 @@
 
 
 
-
-    /*YAZAN YAZI*/
-    /*.container (
-        position : absolute ;
-        top : 50 % ;
-        left : 50 % ;
-    }*/
-   /* @keyframes typing {
-        0% {
-            width : 0% ;
-        }
-        20% {
-            width : 39% ;
-        }
-        40% {
-            width : 39% ;
-        }
-        100% {
-            width : 110% ;
-        }
-    }
-    @keyframes blink-caret {
-        from,
-        to {
-            border-color :transparent
-        }
-        50% {
-            border-color : #565368 ;
-        }
-    }
-    h1 {
-        width : 0% ;
-        overflow : hidden ;
-        border-right : .15em solid #9B87FE ;
-        white-space : nowrap ;
-        color : white ;
-        animation : typing 3s steps( 65 , end ) forwards , blink-caret .85s step-end infinite ;
-        color : #AAC6C6 ;
-    }*/
 }
 @media (min-width: 1270px) and (max-width: 1500px){
     /* SECTİON*/
@@ -127,6 +77,10 @@
     p {
         font-size: 18px;
     }
+    #h{
+        font-weight: bolder;
+
+    }
 
 
     .colon-2 {
@@ -161,45 +115,6 @@
 
 
 
-
-    /*YAZAN YAZI*/
-    /*.container (
-        position : absolute ;
-        top : 50 % ;
-        left : 50 % ;
-    }*/
-   /* @keyframes typing {
-        0% {
-            width : 0% ;
-        }
-        20% {
-            width : 39% ;
-        }
-        40% {
-            width : 39% ;
-        }
-        100% {
-            width : 110% ;
-        }
-    }
-    @keyframes blink-caret {
-        from,
-        to {
-            border-color :transparent
-        }
-        50% {
-            border-color : #565368 ;
-        }
-    }
-    h1 {
-        width : 0% ;
-        overflow : hidden ;
-        border-right : .15em solid #9B87FE ;
-        white-space : nowrap ;
-        color : white ;
-        animation : typing 3s steps( 65 , end ) forwards , blink-caret .85s step-end infinite ;
-        color : #AAC6C6 ;
-    }*/
 }
 @media (min-width: 800px) and (max-width: 1270px){
     /* SECTİON*/
@@ -207,15 +122,21 @@
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin-top: 5%;
-        width: 100%;    
+        margin-top: 45%;
+        width: 100%;
+        height: 100%;    
+        vertical-align: middle;
+
+    }
+    #h{
+        font-weight: bolder;
 
     }
     .colon-1 {
-        margin-top: 18%;
+        margin-top: 0%;
         margin-left: 5%;
         text-align: left;
-        width: 43%;
+        width: 70%;
         display: inline-block;
         justify-content: center;
     }
@@ -245,6 +166,12 @@
         right: 150px;
         border-radius: 50px;
     }
+    #navbar a{
+        font-size: 21px;
+    }
+    p {
+        font-size: 20px;
+    }
 
     /*gölge*/
     .mains::before {
@@ -261,64 +188,28 @@
 
 
 
-
-    /*YAZAN YAZI*/
-    /*.container (
-        position : absolute ;
-        top : 50 % ;
-        left : 50 % ;
-    }*/
-   /* @keyframes typing {
-        0% {
-            width : 0% ;
-        }
-        20% {
-            width : 39% ;
-        }
-        40% {
-            width : 39% ;
-        }
-        100% {
-            width : 110% ;
-        }
-    }
-    @keyframes blink-caret {
-        from,
-        to {
-            border-color :transparent
-        }
-        50% {
-            border-color : #565368 ;
-        }
-    }
-    h1 {
-        width : 0% ;
-        overflow : hidden ;
-        border-right : .15em solid #9B87FE ;
-        white-space : nowrap ;
-        color : white ;
-        animation : typing 3s steps( 65 , end ) forwards , blink-caret .85s step-end infinite ;
-        color : #AAC6C6 ;
-    }*/
 }
 @media (min-width: 400px) and (max-width: 800px){
     /* SECTİON*/
     .mains{
         align-items: center;
         display: flex;
-        justify-content: space-between;
-        margin-top: 5%;
+        margin-top: 45%;
         width: 100%;    
+
+    }
+    #h{
+        font-weight: bolder;
 
     }
     #logo {
         display: none;
     }
     .colon-1 {
-        margin-top: 30%;
-        margin-left: 10%;
+        margin-top: 0%;
+        margin-left: 7%;
         text-align: left;
-        width: 50%;
+        width: 80%;
         display: inline-block;
         justify-content: center;
     }
@@ -333,8 +224,8 @@
     }
     #navbar a {
         
-        padding: .5rem 1rem;
-        font-size: 13px;
+        padding: .5rem 1.2rem;
+        font-size: 16px;
         
     }
     #navbar {
@@ -378,45 +269,6 @@
 
 
 
-
-    /*YAZAN YAZI*/
-    /*.container (
-        position : absolute ;
-        top : 50 % ;
-        left : 50 % ;
-    }*/
-   /* @keyframes typing {
-        0% {
-            width : 0% ;
-        }
-        20% {
-            width : 39% ;
-        }
-        40% {
-            width : 39% ;
-        }
-        100% {
-            width : 110% ;
-        }
-    }
-    @keyframes blink-caret {
-        from,
-        to {
-            border-color :transparent
-        }
-        50% {
-            border-color : #565368 ;
-        }
-    }
-    h1 {
-        width : 0% ;
-        overflow : hidden ;
-        border-right : .15em solid #9B87FE ;
-        white-space : nowrap ;
-        color : white ;
-        animation : typing 3s steps( 65 , end ) forwards , blink-caret .85s step-end infinite ;
-        color : #AAC6C6 ;
-    }*/
 }
 @media (min-width: 300px) and (max-width: 400px){
     /* SECTİON*/
@@ -424,18 +276,22 @@
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin-top: 5%;
+        margin-top: 53%;
         width: 100%;    
+
+    }
+    #h{
+        font-weight: bolder;
 
     }
     #logo {
         display: none;
     }
     .colon-1 {
-        margin-top: 48%;
+        margin-top: 0%;
         margin-left: 10%;
         text-align: left;
-        width: 50%;
+        width: 80%;
         display: inline-block;
         justify-content: center;
     }
@@ -443,19 +299,18 @@
         padding-right: 0px;
     }
     h1 {
-        font-size: 2.5em;
+        font-size: 2.8em;
     }
     p {
         font-size: 15px;
     }
     #navbar a {
-        
-        padding: .2rem 0.5rem;
-        font-size: 15px;
-        
+        padding: .5rem 0.9rem;
+        font-size: 14.7px;
     }
     #navbar {
         justify-content: center;
+        padding: 0rem 1rem;
 
     }
     .bottom1 {
@@ -495,61 +350,26 @@
 
 
 
-
-    /*YAZAN YAZI*/
-    /*.container (
-        position : absolute ;
-        top : 50 % ;
-        left : 50 % ;
-    }*/
-   /* @keyframes typing {
-        0% {
-            width : 0% ;
-        }
-        20% {
-            width : 39% ;
-        }
-        40% {
-            width : 39% ;
-        }
-        100% {
-            width : 110% ;
-        }
-    }
-    @keyframes blink-caret {
-        from,
-        to {
-            border-color :transparent
-        }
-        50% {
-            border-color : #565368 ;
-        }
-    }
-    h1 {
-        width : 0% ;
-        overflow : hidden ;
-        border-right : .15em solid #9B87FE ;
-        white-space : nowrap ;
-        color : white ;
-        animation : typing 3s steps( 65 , end ) forwards , blink-caret .85s step-end infinite ;
-        color : #AAC6C6 ;
-    }*/
 }
-@media (min-width: 200px) and (max-width: 400px){
+@media (min-width: 200px) and (max-width: 300px){
     /* SECTİON*/
     .mains{
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin-top: 5%;
+        margin-top: 65%;
         width: 100%;    
+
+    }
+    #h{
+        font-weight: bolder;
 
     }
     #logo {
         display: none;
     }
     .colon-1 {
-        margin-top: 48%;
+        margin-top: 0%;
         margin-left: 10%;
         text-align: left;
         width: 80%;
@@ -566,13 +386,12 @@
         font-size: 15px;
     }
     #navbar a {
-        
-        padding: .2rem 0.2rem;
-        font-size: 14px;
-        
+        padding: .5rem 0.5rem;
+        font-size: 15px;
     }
     #navbar {
         justify-content: center;
+        padding: 0rem 1rem;
 
     }
     .bottom1 {
@@ -613,42 +432,4 @@
 
 
 
-    /*YAZAN YAZI*/
-    /*.container (
-        position : absolute ;
-        top : 50 % ;
-        left : 50 % ;
-    }*/
-   /* @keyframes typing {
-        0% {
-            width : 0% ;
-        }
-        20% {
-            width : 39% ;
-        }
-        40% {
-            width : 39% ;
-        }
-        100% {
-            width : 110% ;
-        }
-    }
-    @keyframes blink-caret {
-        from,
-        to {
-            border-color :transparent
-        }
-        50% {
-            border-color : #565368 ;
-        }
-    }
-    h1 {
-        width : 0% ;
-        overflow : hidden ;
-        border-right : .15em solid #9B87FE ;
-        white-space : nowrap ;
-        color : white ;
-        animation : typing 3s steps( 65 , end ) forwards , blink-caret .85s step-end infinite ;
-        color : #AAC6C6 ;
-    }*/
 }
