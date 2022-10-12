@@ -1,13 +1,14 @@
-object {
-    width: 66%;
-    height: 850px;
+.pdf {
     text-align: center;
     align-items: center;
+    width: 100%;
+}
+#h{
+    font-weight: bolder;
 
-    margin: 90px 0 0 17%;
 }
 
-
+/* arka plan pusu*/
 
 .about-header::before {
     content : '' ;
@@ -20,3 +21,56 @@ object {
    rgba(0, 0, 0, 0.5));
    z-index: -1;
 }
+
+
+@media (min-width: 1500px) and (max-width: 3200px){
+   object {
+    width: 85%;
+    height: 85vh;
+    margin: 90px 0 0 0%;
+
+   }
+}
+
+@media (min-width: 1270px) and (max-width: 1500px){
+    object {
+        
+        width: 85%;
+        height: 85vh;
+        margin: 90px 0 0 0%;
+    
+       }
+}
+@media (min-width: 800px) and (max-width: 1270px){
+    object {
+        width: 85%;
+        height: 85vh;
+        margin: 90px 0 0 0%;
+    
+       }
+}
+@media (min-width: 400px) and (max-width: 800px){
+    object {
+        width: 85%;
+        height: 85vh;
+        margin: 90px 0 0 0%;
+    
+       }
+}
+@media (min-width: 300px) and (max-width: 400px){
+    object {
+        width: 85%;
+        height: 85vh;
+        margin: 90px 0 0 0%;
+    
+       }
+}
+@media (min-width: 200px) and (max-width: 300px){
+    object {
+        width: 85%;
+        height: 85vh;
+        margin: 90px 0 0 0%;
+    
+       }
+}
+
