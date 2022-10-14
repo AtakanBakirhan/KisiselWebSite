@@ -24,7 +24,7 @@ html {
 
 a {
     text-decoration: none;
-    color: blanchedalmond;
+    color: #fff;
     padding: 1rem 2rem;
     margin: 0 .5px;
 }
@@ -191,15 +191,24 @@ h1::selection{
     #navbar a{
         font-size: 21px;
     }
+    #navbar {
+        padding-left: 4vw;
+    }
 }
 @media (min-width: 1270px) and (max-width: 1500px){
     #navbar a{
         font-size: 20px;
     }
+    #navbar {
+        padding-left: 4vw;
+    }
 }
 @media (min-width: 800px) and (max-width: 1270px){
     #navbar a{
         font-size: 19px;
+    }
+    #navbar {
+        padding-left: 4vw;
     }}
 @media (min-width: 400px) and (max-width: 800px){
     #navbar a {
@@ -212,7 +221,8 @@ h1::selection{
         justify-content: center;
 
     }
-    #logo {
+    
+    lottie-player {
         display: none;
     }}
 @media (min-width: 300px) and (max-width: 400px){
@@ -225,7 +235,7 @@ h1::selection{
         padding: 0rem 1rem;
 
     }
-    #logo {
+    lottie-player {
         display: none;
     }}
 @media (min-width: 200px) and (max-width: 300px){
@@ -238,7 +248,7 @@ h1::selection{
         padding: 0rem 1rem;
 
     }
-    #logo {
+    lottie-player {
         display: none;
     }}
 
