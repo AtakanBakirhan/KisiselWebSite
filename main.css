@@ -4,7 +4,7 @@
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin-top: 30vh;
+        margin-top: 33vh;
         width: 100%;
         height: 100%;    
         vertical-align: middle;
@@ -59,12 +59,12 @@
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin-top: 5%;
+        margin-top: 28vh;
         width: 100%;    
 
     }
     .colon-1 {
-        margin-top: 18%;
+        margin-top: 0%;
         margin-left: 5%;
         text-align: left;
         width: 43%;
@@ -78,7 +78,7 @@
         font-size: 4em;
     }
     p {
-        font-size: 18px;
+        font-size: 21px;
     }
     #h{
         font-weight: bolder;
@@ -125,7 +125,7 @@
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin-top: 45%;
+        margin-top: 30vh;
         width: 100%;
         height: 100%;    
         vertical-align: middle;
@@ -147,7 +147,7 @@
         padding-right: 0px;
     }
     h1 {
-        font-size: 4em;
+        font-size: 3.5em;
     }
     p {
         font-size: 18px;
@@ -197,7 +197,7 @@
     .mains{
         align-items: center;
         display: flex;
-        margin-top: 45%;
+        margin-top: 30vh;
         width: 100%;    
 
     }
@@ -220,15 +220,15 @@
         padding-right: 0px;
     }
     h1 {
-        font-size: 3.3em;
+        font-size: 2.3em;
     }
     p {
         font-size: 18px;
     }
     #navbar a {
         
-        padding: .5rem 1.2rem;
-        font-size: 16px;
+        padding: .5rem .9rem;
+        font-size: 14px;
         
     }
     #navbar {
@@ -279,7 +279,7 @@
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin-top: 53%;
+        margin-top: 30vh;
         width: 100%;    
 
     }
@@ -309,7 +309,7 @@
     }
     #navbar a {
         padding: .5rem 0.9rem;
-        font-size: 14.7px;
+        font-size: 12px;
     }
     #navbar {
         justify-content: center;
@@ -360,7 +360,7 @@
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin-top: 65%;
+        margin-top: 30vh;
         width: 100%;    
 
     }
@@ -383,14 +383,14 @@
         padding-right: 0px;
     }
     h1 {
-        font-size: 2.5em;
+        font-size: 2.1em;
     }
     p {
         font-size: 15px;
     }
     #navbar a {
-        padding: .5rem 0.5rem;
-        font-size: 15px;
+        padding: .5rem 0.2rem;
+        font-size: 11px;
     }
     #navbar {
         justify-content: center;
