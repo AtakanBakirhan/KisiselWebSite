@@ -30,6 +30,9 @@
     margin: 90px 0 0 0%;
 
    }
+   .navigation{
+    width: 50%;
+    }
 }
 
 @media (min-width: 1270px) and (max-width: 1500px){
@@ -40,6 +43,9 @@
         margin: 90px 0 0 0%;
     
        }
+    .navigation{
+        width: 55%;
+    }
 }
 @media (min-width: 800px) and (max-width: 1270px){
     object {
@@ -48,6 +54,9 @@
         margin: 90px 0 0 0%;
     
        }
+    .navigation{
+        width: 60%;
+    }
 }
 @media (min-width: 400px) and (max-width: 800px){
     object {
@@ -56,6 +65,9 @@
         margin: 90px 0 0 0%;
     
        }
+    .navigation{
+        width: 70%;
+    }
 }
 @media (min-width: 300px) and (max-width: 400px){
     object {
@@ -64,6 +76,9 @@
         margin: 90px 0 0 0%;
     
        }
+    .navigation{
+        width: 80%;
+    }
 }
 @media (min-width: 200px) and (max-width: 300px){
     object {
@@ -72,6 +87,9 @@
         margin: 90px 0 0 0%;
     
        }
+    .navigation{
+        width: 90%;
+    }
 }
 
 
@@ -80,7 +98,6 @@
 .navigation {
     list-style: none;
     padding: 0;
-    width: 50%; 
     margin: 5% auto;
     position: relative; 
     z-index: 100;
